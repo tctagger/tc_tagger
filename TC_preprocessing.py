@@ -51,10 +51,10 @@ class Preprocessing() :
     #     return spacing(text)
         
     # Escape Code 처리
-    def del_escape(self, text):
-        for e in self.escape_code:
-            text = text.replace(e, ' ')
-        return text
+    def del_escape(self,text):
+        char_ls=list(text)
+        reduced_ls=[char for char in char_ls if "{c!r}".format(c=char).replace("'","")==char]
+        return "".join(reduced_ls)
     
     # emoji 삭제
     def del_emoji(self, text) :
