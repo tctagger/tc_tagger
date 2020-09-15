@@ -231,3 +231,6 @@ tagger = Tagger()
     ```
 
     - 출력값을 확인하면 텍스트에서 명사 토큰들만 추출된 것을 확인할 수 있습니다.
+    
+    ### tc_tagger 품사 체계
+    ![품사 태그](https://user-images.githubusercontent.com/71303927/93207414-e60cae80-f795-11ea-9537-49a74189fa4d.png)
