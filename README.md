@@ -18,7 +18,7 @@
 ### Install
 
 ```powershell
-$ git clone https://github.com/HyeonminNam/tc_tagger.git
+$ git clone https://github.com/tctagger/tc_tagger.git
 ```
 
 ### Python
@@ -53,7 +53,7 @@ $ git clone https://github.com/HyeonminNam/tc_tagger.git
     ```powershell
     $ docker pull wdg3938/tc_tagger:v1
     $ docker run -it --rm wdg3938/tc_tagger:v1 bash
-    $ git clone https://github.com/HyeonminNam/tc_tagger.git
+    $ git clone https://github.com/tctagger/tc_tagger.git
     ```
 
 ## Usage
